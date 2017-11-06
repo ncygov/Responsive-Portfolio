@@ -240,26 +240,19 @@ input[type=submit] {
 
 @media screen and (max-width: 768px) {
 
-  
-  
   .main-container,
   .sidebar
 
   {
-
-    /* Box-model */
     width: 100%;
     padding: 10px;
     max-width: 698px;
    
 }
-.container
+  .container
 
 {
-
-    /* Box-model */
     width: 100%;
-   
     max-width: 698px;
    
 }
@@ -271,54 +264,45 @@ input[type=submit] {
 
   }
 
-  @media screen and (max-width: 640px) {
+@media screen and (max-width: 640px) {
 
-  
-
-  
   #main-container,
   
   {
-
-    /* Box-model */
     width: 100%;
     padding: 10px;
     
-   
-
   }
 
   #masthead {
     position: fixed;
     width: 100%;
-    
-    
-  }
+}
 
- #logo{
+  #logo{
    width: 100%;
 }
 
-nav { 
-  width: 100%;
-  padding-left: 60px;
+  nav { 
+    width: 100%;
+    padding-left: 60px;
 
 }
 
-#nav_about{
-  padding-left: 15px;
-  padding-right: 50px;
+  #nav_about{
+    padding-left: 15px;
+    padding-right: 50px;
 }
  
-#nav_contact{
-  padding-left: 50px;
-  padding-right: 15px;
+  #nav_contact{
+    padding-left: 50px;
+    padding-right: 15px;
 
 }
 
-#nav_portfolio{
-  padding-right: 50px;
-  padding-left: 50px;
+  #nav_portfolio{
+    padding-right: 50px;
+    padding-left: 50px;
 
 
 }
@@ -330,25 +314,27 @@ nav {
 
   }
 
-    .sidebar{
-      max-width: 598px;
-      margin-top: 40px;
-      margin-right: 20px;
-      padding: 20px; 
-    }
+  .sidebar{
+    max-width: 598px;
+    margin-top: 40px;
+    margin-right: 20px;
+    padding: 20px; 
+}
 
   
- .work {
-  margin-bottom: 20px;
+  .work {
+    margin-bottom: 20px;
 
  }
-#connect1 {
-  width: 100%;
+
+  #connect1 {
+    width: 100%;
     padding: 10px;
     max-width: 
 }
 
 @media all and (max-width: 640px) {
+  
   .main-container {
     max-width: 90%;
   }
